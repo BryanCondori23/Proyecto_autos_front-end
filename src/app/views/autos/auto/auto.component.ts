@@ -61,9 +61,7 @@ export class AutoComponent {
           this.getAutos();
           this.autoModelo = new AutoModel();
       },
-      error: (error) => {
-        console.log(error);
-      }
+     
     })
   }
 

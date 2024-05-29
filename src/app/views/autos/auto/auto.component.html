@@ -1,4 +1,4 @@
-<p>auto works!</p>
+
 <c-row ngPreserveWhitespaces>
     <c-col xs="12">
       <c-card class="mb-4">
@@ -27,7 +27,7 @@
                        [(ngModel)] ="autoModelo.color"
                 />
               </div>
-              <div class="mb-3">
+             <div class="mb-3">
                 <label cLabel for="precio">precio</label>
                 <input cFormControl
                        id="porciones"
@@ -38,7 +38,7 @@
   
                 />
               </div>
-              <div class="mb-3">
+              <!--<div class="mb-3">
                 <label cLabel for="usuario">Usuario</label>
                 <input cFormControl
                        id="usuario"
@@ -46,13 +46,13 @@
                        name="usuario"
                        [(ngModel)] = "autoModelo.usuario"
                 />
-                <!-- <select  aria-label="Seleccione usuario" cSelect >
+                <select  aria-label="Seleccione usuario" cSelect >
                   <option></option>
                   <option value="664407b69616a061c8547132">xiac</option>
                   <option value="2">Esteban</option>
                   <option value="3">Esther</option>
-                </select> -->
-              </div>
+                </select> 
+              </div>-->
               <button (click)="guardarAuto()" cButton class="me-1" color="primary" type="submit">
                 Guardar
               </button>
@@ -64,7 +64,7 @@
       <table cTable>
         <thead>
         <tr>
-          <th scope="col">#</th>
+          <th scope="col">Nro.</th>
           <th scope="col">Modelo</th>
           <th scope="col">Color<th>
           <th scope="col">Precio</th>
